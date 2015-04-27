@@ -1,0 +1,133 @@
+*****************************************************************************************************************
+All functionalities have been implemented. Along with the Bonus Extra Functionalities mentioned in the pdf file.
+*****************************************************************************************************************
+
+ Team Information:-
+
+*Mohammed Fahad Kaleem(1000969369)
+*Nitin Kamani(1000919137)
+*Sarabjeet Singh(1001115369)
+*Mohammed Mudassir Ahmed(1001108922)
+
+
+------------------------------------------------------------------------------
+Software Requirements
+------------------------------------------------------------------------------
+1. Apache-PHP-MySQL-phpMyAdmin(AppServ)
+2. JDK 1.7.0_15
+3. Net Beans IDE 6.9.1 (Atleast)
+4. Install appserv-win32-2.6.0.exe
+
+
+------------------------------------------------------------------------------
+Library
+------------------------------------------------------------------------------
+We have included the mysql-connector-java-5.1.24-bin.jar file along with this project. If incase needed, you can add it to the library of both ChatRoomClient and ChatRoomServer
+
+
+------------------------------------------------------------------------------
+Importing Project in NetBeans
+------------------------------------------------------------------------------
+Step 1: Click on File --> Import --> From Zip..
+
+Step 2: Select ChatRoomClient.zip and after importing it build it and import library if needed.
+
+Step 3: Click on File --> Import --> From Zip..
+
+Step 4: Select ChatRoomServer.zip and after importing it build it and import library if needed.
+
+
+------------------------------------------------------------------------------
+Creating Database
+------------------------------------------------------------------------------
+localhost/phpMyAdmin/
+
+Create a database named "chatroom" with three tables as shown below
+1.chatlogs
+2.chatrooms
+3.users
+
+For better understanding please check the screenshots document we have attached with this project. Create a database with the fields in screenshots
+
+
+------------------------------------------------------------------------------
+Running the project
+------------------------------------------------------------------------------
+Step 1: Run Server.java which is located in the ChatRoomServer project in chatroomserver package.
+
+Step 2: Run App.java which is located in the ChatRoomClient project in chatroomclient package.
+
+Step 3: Click on Register and get Registered.
+
+Step 4: After registering, you need to login with the username and password
+
+Step 5: Click on Create Chat Room button, and enter the chatroom name you want to create and Click on Create
+
+Step 6: Once you create a chat room it will now be available in the drop down list. Select the chatroom from the drop down list and click on "Add Room"
+
+This will add the room in the temporary list down which is used to join more than one chatrooms at a time. The chatroom also has a count which is displayed along with the chatroom name.
+
+Step 7: Select a chatroom from the list and Click on "Join Chat Room".
+
+Step 8: You can add more than one chat room at a time. 
+
+Multiple clients can be executed and checked if the program works perfectly.
+
+Step 9: Click on "Leave conversation" in order to leave the conversation, also you will see the Left Conversation message on other users conversation in the same chatroom.
+
+Step 10: Once you are back to the same Available chat rooms window. Click on "Save Chat" and enter the session value and click "Save".
+
+Step 11: In order to view the previous chats, Click on "View History" from the Available Chat Rooms window and enter the session value. This will display all the chatrooms history along with the timestamp. Choose the one you want to view and click "Show".
+
+-------------------------------------------------------------------------------
+References
+-------------------------------------------------------------------------------
+
+1. http://www.cn-java.com/download/data/book/socket_chat.pdf
+2. Socket programming in java: https://www.youtube.com/watch?v=6G_W54zuadg
+3. GUI Programming in Jframe: https://www.youtube.com/watch?v=jUdIAgJ7JKo
+4. http://docs.oracle.com/javase/tutorial/networking/sockets/clientServer.html
+5. http://cs.lmu.edu/~ray/notes/javanetexamples/
+6. http://docs.oracle.com/javase/tutorial/uiswing/components/frame.html
+7. http://httpd.apache.org/docs/2.4/install.html
+8. http://www.wikihow.com/Install-phpMyAdmin-on-Your-Windows-PC
+9. http://docs.oracle.com/javase/tutorial/networking/sockets/
+
+
+
+Video References
+10. Socket Chat referred from :http://www.cn-java.com/download/data/book/socket_chat.pdf
+                           https://www.youtube.com/watch?v=PDCAnKX2kkY
+                           https://www.youtube.com/watch?v=qWYn1omeqqs(just got an idea of the GUI from here)
+                           https://www.youtube.com/watch?v=fSQOhFYgE3s
+                           https://www.youtube.com/watch?v=6G_W54zuadg&spfreload=10%20Message%3A%20Unexpected%20end%20of											%20input%20(url%3A%20https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D6G_W54zuadg)
+
+11. Login and Register    :https://www.youtube.com/watch?v=lJ-quz0uri4
+                           https://www.youtube.com/watch?v=CPottYpf9ag
+
+12. JList                 :https://www.youtube.com/watch?v=9Ejx6YCnYmk
+13. Database              :https://www.youtube.com/watch?v=fbYxThOFsLI
+                           https://www.youtube.com/watch?v=BCqW5XwtJxY
+14. Setup Appserv   `     :https://www.youtube.com/watch?v=NVgYOn5QvAE
+                           https://www.youtube.com/watch?v=Nic73WekoFs&spfreload=10%20Message%3A%20Unexpected%20end%20of											%20input%20(url%3A%20https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNic73WekoFs)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
